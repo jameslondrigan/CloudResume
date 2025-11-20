@@ -1,28 +1,7 @@
 // src/components/projectsData.js
 
 export const projects = [
-  {
-    id: "cloud-resume",
-    title: "Cloud Resume (S3 + CloudFront)",
-    blurb:
-      "Static site on S3 fronted by CloudFront with Route 53. Lambda + DynamoDB powers a visitor counter API.",
-    tech: ["AWS", "S3", "CloudFront", "Lambda", "DynamoDB"],
-    links: {
-      demo: "https://www.jameslondrigan.com",
-      code: "#" // add repo when ready
-    }
-  },
-  {
-    id: "aethermart-etl",
-    title: "AetherMart E-commerce (ETL + Replication)",
-    blurb:
-      "End-to-end ingestion & DB replication: staging tables, robust date parsing, deduplication, and asynchronous primary-secondary replication.",
-    tech: ["Bash", "ETL", "Python", "SQL", "MariaDB", "Triggers", "Stored Procedures"],
-    links: {
-      demo: "#",
-      code: "#"
-    }
-  },
+  
   {
     id: "cloud-automation",
     title: "Cloud Automation Scripts",
